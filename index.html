@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox - HTML/CSS</title>
+</head>
+<body>
+    <h1>Education</h1>
+    <div class="card-container">
+        <div class="edu-card-a">
+            <h2>School</h2>
+        </div>
+        <div class="edu-card-b">
+            <h2>College</h2>
+        </div>
+        <div class="edu-card-c">
+            <h2>Institution</h2>
+        </div>
+        <div class="edu-card-c">
+            <h2>Institution</h2>
+        </div>
+        <div class="edu-card-c">
+            <h2>Institution</h2>
+        </div>
+    </div>
+    <style>
+        .edu-card-a{
+            width: 350px;
+            height: 400px;
+            background: blue;
+            margin: 20px;
+        }
+        .edu-card-b{
+            width: 350px;
+            height: 540px;
+            background: blue;
+            margin: 20px;
+            padding-right: 600px;
+        }
+        .edu-card-c{
+            width: 350px;
+            height: 450px;
+            background: blue;
+            margin: 20px;
+        }
+        .card-container{
+            background: RED;
+            height: 800px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</body>
+</html>
